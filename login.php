@@ -35,5 +35,6 @@
         </form>
       </section>
     </div>
+    <script src="/javascript/pass-show-hide.js"></script>
   </body>
 </html>

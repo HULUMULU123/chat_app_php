@@ -15,30 +15,30 @@
     <div class="wrapper">
       <section class="form signup">
         <header>Realtime Chat App</header>
-        <form action="#">
+        <form action="#" enctype="multipart/form-data">
           <div class="error-txt">This is an error message</div>
           <div class="name-details">
             <div class="field input">
               <label for="">First name</label>
-              <input type="text" placeholder="First name" />
+              <input type="text" placeholder="First name" name="fname" required />
             </div>
             <div class="field input">
               <label for="">Last name</label>
-              <input type="text" placeholder="Last name" />
+              <input type="text" placeholder="Last name" name="lname" required/>
             </div>
           </div>
           <div class="field input">
             <label for="">Email Address</label>
-            <input type="text" placeholder="Email address" />
+            <input type="text" placeholder="Email address" name="email" required/>
           </div>
           <div class="field input">
             <label for="">Password</label>
-            <input type="text" placeholder="Enter yout password" />
+            <input type="password" placeholder="Enter yout password" name="password" required/>
             <i class="fas fa-eye"></i>
           </div>
           <div class="field input image">
             <label for="">Select image</label>
-            <input type="file" />
+            <input type="file" name="image" />
           </div>
           <div class="field input button">
             <input type="submit" placeholder="Continue to chat" />
@@ -47,5 +47,7 @@
         </form>
       </section>
     </div>
+    <script src="javascript/pass-show-hide.js"></script>
+    <script src="javascript/signup.js"></script>
   </body>
 </html>
